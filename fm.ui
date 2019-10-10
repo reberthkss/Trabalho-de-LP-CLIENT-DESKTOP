@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>300</height>
+    <height>323</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -102,6 +102,40 @@
             </widget>
            </item>
            <item>
+            <widget class="QGroupBox" name="groupBox_5">
+             <property name="title">
+              <string>Destino</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_9">
+                <item>
+                 <widget class="QRadioButton" name="spRadio">
+                  <property name="text">
+                   <string>São Paulo - R$ 28,00</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="cuRadio">
+                  <property name="text">
+                   <string>Curitiba - R$ 159,00</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="flRadio">
+                  <property name="text">
+                   <string>Florianopolis - R$ 188,00</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
             <widget class="QGroupBox" name="groupBox_3">
              <property name="title">
               <string>Quantidade</string>
@@ -166,16 +200,64 @@
       <attribute name="title">
        <string>VERIFICAR</string>
       </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string>Assentos [JANELA/CORREDOR]</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QListWidget" name="janelaLista"/>
+            </item>
+            <item>
+             <widget class="QListWidget" name="corredorLista"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
      </widget>
      <widget class="QWidget" name="tab_4">
+      <property name="maximumSize">
+       <size>
+        <width>376</width>
+        <height>256</height>
+       </size>
+      </property>
       <attribute name="title">
        <string>MAPA</string>
       </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QLabel" name="trajetoLabel">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
      <widget class="QWidget" name="tab_5">
       <attribute name="title">
        <string>LUCRO</string>
       </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_11">
+       <item>
+        <widget class="QListWidget" name="lucroList"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="updateBtn">
+         <property name="text">
+          <string>Atualizar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </widget>
    </item>

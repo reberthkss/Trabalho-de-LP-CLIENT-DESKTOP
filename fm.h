@@ -44,6 +44,14 @@ private slots:
 
     void on_pushButton_5_clicked();
 
+    void on_spRadio_toggled(bool checked);
+
+    void on_cuRadio_toggled(bool checked);
+
+    void on_flRadio_toggled(bool checked);
+
+    void on_updateBtn_clicked();
+
 private:
     Ui::fm *ui;
 };

@@ -24,10 +24,10 @@ void MainWindow::on_pushButton_clicked()
 {
 
     QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-    db.setHostName("IP DA DATABASE");
-    db.setDatabaseName("NOME DA DATABASE");
-    db.setUserName("LOGIN DA DATABASE");
-    db.setPassword("SENHA DA DATABASE");
+    db.setHostName("localhost");
+    db.setDatabaseName("qtcreator");
+    db.setUserName("admin");
+    db.setPassword("Reth0153a!a");
     bool ok = db.open();
 
     if(ok){
